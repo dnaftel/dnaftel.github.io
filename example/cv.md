@@ -9,6 +9,6 @@ position: 100
 ---
 
 
-<embed src="https://dnaftel.github.io/assets/Naftel_CV_2023.pdf" type="application/pdf"/>
+<embed src="https://dnaftel.github.io/assets/Naftel_CV_2023.pdf" type="application/pdf" width="100%" height="800px"/>
 
-You can [download pdf](https://dnaftel.github.io/assets/Naftel_CV_2023.pdf) here.
+Download PDF [here](https://dnaftel.github.io/assets/Naftel_CV_2023.pdf).
