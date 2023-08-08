@@ -1,10 +1,9 @@
-title: 
+title: Daniel Naftel
 author: Daniel Naftel
 email: naftel.1[at]osu.edu
-#description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: I am a PhD Candidate in the Department of Political Science at Ohio State University. 
+  My work investigates the political effects of the criminal justice system, 
+  as well as the causes and consequences of inequalities in political voice and the provision of public services.
 url: dnaftel/dnaftel.github.io
 #baseurl: "/jekyll-theme-kagami"
 lang: en # site language (en/ja/zh-Hans/zh-Hant)
