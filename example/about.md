@@ -2,15 +2,12 @@
 layout: page
 title: About
 lang: en
-cover_url: https://s2.banana.moe/unsplash_colle/amador-loureiro-779.jpg
-cover_meta: >
-  Photo by [Amador Loureiro](https://unsplash.com/@amadorloureiroblanco)
+cover_url:
+cover_meta: 
 navbar: true
 position: 100
 ---
 
-Kagami is a simple and clean theme for Jekyll and GitHub Pages.
+I am a PhD Candidate in the Department of Political Science at Ohio State University. My work investigates the political effects of the criminal justice system, as well as the causes and consequences of inequalities in political voice and the provision of public services. My dissertation, \textit{Identifying the Effects of Policing on Voter Behavior}, leverages anti-crime crackdowns and a series of randomized policing experiences to measure the impact of aggressive police tactics on political attitudes and voting behavior.
 
-The theme was firstly designed for <https://banana.moe> in late 2016 and have it's first release in March 2017 with a whole bunch of big changes in both design and implementation.
-
-Visit [project home](https://github.com/kamikat/jekyll-theme-kagami) for source code and installation guides.
+Before joining Ohio State, I earned my B.A. in International Affairs from the University of Colorado, Boulder. My work has been supported by the NSF Graduate Research Fellowship, and various grants including the Mershon Center Research Grant.
