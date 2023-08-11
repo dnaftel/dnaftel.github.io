@@ -10,7 +10,7 @@ navbar_title: Research
 
 ## Working Papers
 
-When Policing Mobilizes: Political Action in the Wake of Anti-Gang Crackdowns (Job market paper)
+"When Policing Mobilizes: Political Action in the Wake of Anti-Gang Crackdowns" (Job market paper)
 
 "[Meet the Press: Gendered Conversational Norms in Televized Political Discussion](https://osf.io/my8us)," with Jon Green, Kelsey Shoub, Jared Edgerton, Mallory Wagner, and Skyler Cranmer
 
