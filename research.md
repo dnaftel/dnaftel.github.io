@@ -4,6 +4,7 @@ title: Research
 navbar_title: Research
 ---
 
+<h1 Heading 1 />
 
 <dl>
   <dt>Published Work </dt>
