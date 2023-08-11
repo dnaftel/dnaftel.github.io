@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
-# <img src="https://dnaftel.github.io/assets/IMG_5613.JPG" style="display: block; margin: auto;" />
+# &ltimg src="https://dnaftel.github.io/assets/IMG_5613.JPG" style="display: block; margin: auto;" />
 
-<div style="height: 250px">
+<div style="height: 350px">
      <img src="https://dnaftel.github.io/assets/IMG_5613.JPG" alt=" " style="max-height: 100%" />
 </div>
 
