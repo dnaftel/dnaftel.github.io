@@ -20,15 +20,17 @@ Abstract: *Cues sent by political elites are known to influence public attitudes
 
 Abstract: *Aggressive, zero tolerance policing exposes many Americans to high levels of police surveillance and coercion. Yet little is known about how these tactics affect voting in the broader communities they target. I overcome difficulties in identifying the causal effect of aggressive policing on turnout by exploiting hyperlocal variation in exposure to a series of geographically targeted, anti-gang crackdowns in Los Angeles. Using administrative data on voting, a geocoded panel survey, and a within-neighborhoods, difference-in-difference design, I show that these crackdowns led to large, durable increases in political participation. These mobilization effects are concentrated among Black and Latino residents, who became significantly more likely to report police discrimination. I find corresponding increases in support for criminal justice reform, but minimal changes to perceived crime and safety. These results suggest that communities targeted by harsh police crackdowns may mobilize to resist these policies when viewed as ineffective and racially targeted.*
 
-"What Randomized Policing Experiments Can Teach Us About the Political Effects of Policing”
+"Can Police Reform Change Voting Behavior? Evidence from the Jacksonville Hotspots Experiment”
 
-Abstract: *A growing body of research suggests that proximal contact with aggressive policing can have important consequences for political attitudes and behavior, particularly in poor communities of color. Yet the direction, magnitude, and mechanisms behind these effects are unclear. I leverage exogenous changes in police presence, training, and tactics induced by a three arm, randomized policing experiment conducted in hotspots of violent crime to identify the conditions under which law enforcement activity affects electoral turnout. Pairing geocoded voter files with the locations of the intervention sites, I find that sudden, localized increases in police patrols increased voter turnout among Black voters regardless of the type of intervention used—while residents of some hotspots were exposed to dramatic increases in investigatory stops and enforcement actions, others were exposed to policing aimed at addressing the “root causes” of violent crime through community outreach and improved access to social services. Importantly, these mobilizing effects are only seen in local elections where officials responsible for setting local policing policy were on the ballot. I discuss the implications of these findings and the possible role of the salience of crime in driving these electoral effects.*
+Abstract: *In many cities across the United States, recent reforms have sought to reduce the use of heavy-handed police enforcement and coercion, yet little is known about the electoral consequences of these changes. I study the turnout effects of a randomized policing experiment in Jacksonville that encouraged officers to avoid enforcement actions and address the root causes of crime through community engagement and improved access to social services. Linking administrative voter data to the intervention sites allows me to isolate the causal effect of this reform on turnout, and directly compare the effect to a parallel intervention focused on increased surveillance and patrols. Analyses of two additional quasi-experimental interventions allow me to explore mechanisms and assess the generalizability of the findings. Together, these analyses offer key insights into when and how changes in policing can alter attitudes toward law enforcement and encourage voting in highly policed communities.*
 
 ## In Progress
 
+"Criminal Justice and Voter Behavior in Local Elections," with Justin de Benedictis-Kessner, John Sides, and Christopher Warshaw
+
 "Pork on the Menu: Local Elections and Inequality in the Provision of Public Goods"
 
-"Seeing Politics: A Guide to Computer Vision in Political Science" (with Skyler Cranmer)
+"Seeing Politics: A Guide to Computer Vision in Political Science," with Skyler Cranmer
 
 
 
