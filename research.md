@@ -17,7 +17,7 @@ Abstract: *Cues sent by political elites are known to influence public attitudes
 
 ## Working Papers
 
-"[The Mobilizing Effects of Aggressive Policing: Evidence from Anti-Gang Crackdowns](https://dnaftel.github.io/assets/naftel_injunctions_workingpaper.pdf)" 
+"[The Mobilizing Effects of Aggressive Policing: Evidence from Anti-Gang Crackdowns](https://dnaftel.github.io/assets/naftel_injunctions_workingpaper.pdf)" (Revise and Resubmit, *Journal of Politics*)
 
 Abstract: *Aggressive, zero tolerance policing exposes many Americans to high levels of police surveillance and coercion. Yet little is known about how these tactics affect voting in the broader communities they target. I overcome difficulties in identifying the causal effect of aggressive policing on turnout by exploiting hyperlocal variation in exposure to a series of geographically targeted, anti-gang crackdowns in Los Angeles. Using administrative data on voting, a geocoded panel survey, and a within-neighborhoods, difference-in-difference design, I show that these crackdowns led to large, durable increases in political participation. These mobilization effects are concentrated among Black and Latino residents, who became significantly more likely to report police discrimination. I find corresponding increases in support for criminal justice reform, but minimal changes to perceived crime and safety. These results suggest that communities targeted by harsh police crackdowns may mobilize to resist these policies when viewed as ineffective and racially targeted.*
 
