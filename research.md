@@ -25,11 +25,13 @@ Abstract: *Aggressive, zero tolerance policing exposes many Americans to high le
 
 Abstract: *Existing scholarship documents the ways in which involuntary contact with police can harm and demobilize the public, but policing can also provide important benefits in the form of reassurance and crime control. Because of this, the aggregate consequences of high levels of policing are unclear. To test the effects of policing on turnout, I leverage a unique field experiment in which the presence of the police and the tactics they used were randomized. Some neighborhoods experienced high-intensity patrols that generated large numbers of stops and arrests; others experienced patrols that emphasized non-enforcement, community-oriented tactics; while others experienced no changes in policing. I find that both interventions increased turnout in subsequent elections by roughly 3 percentage points despite large differences in officer behavior. These findings offer the strongest evidence to date that increasing the presence of the police in neighborhoods with high crime rates can generate positive feedback effects that encourage voting.*
 
-"Nationalization in Local Elections" with Justin de Benedictis-Kessner, John Sides, and Christopher Warshaw
+"[Nationalization in Local Elections]([https://dash.harvard.edu/server/api/core/bitstreams/7f6aa940-3ad2-4049-be9d-7440eee20fe9/content](https://jdbk.scholars.harvard.edu/sites/g/files/omnuum4201/files/2026-07/Nationalization_Paper_260716.pdf))" with Justin de Benedictis-Kessner, John Sides, and Christopher Warshaw
+
+Abstract: *There is an important debate about how much the nationalization of American politics has affected local politics. We provide new evidence on local voting behavior from the largest survey to date of U.S. voters in local elections. We show that voting for partisan local offices resembles voting in state and federal elections, with voters’ choices strongly connected to their party identification and their views on national policies. In nonpartisan local elections, voters' choices are less strongly related to party identification but remain linked to national policy attitudes. In both types of local elections, voting is only weakly related to attitudes toward local policies. However, because local policy attitudes are correlated with party identification and national policy attitudes, even "nationalized" voting still allows voters to choose local candidates who match their views on local policies. Our findings thus speak to the nature of representation in local governments.*
 
 ## In Progress
 
-"Low Information, Not No Information: Voter Perceptions of Candidate Ideology in Local Elections," with Justin de Benedictis-Kessner, Julian Perry, and Jacob Sherer
+"Citizen Knowledge in Local Elections," with Justin de Benedictis-Kessner, Julian Perry, and Jacob Sherer
 
 "What Shapes Police Accountability? Evidence from Three Decades of Police Collective Bargaining"
 
