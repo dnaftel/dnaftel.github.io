@@ -17,21 +17,25 @@ Abstract: *Cues sent by political elites are known to influence public attitudes
 
 ## Working Papers
 
-"[The Mobilizing Effects of Aggressive Policing: Evidence from Anti-Gang Crackdowns](https://dnaftel.github.io/assets/naftel_injunctions_workingpaper.pdf)" (Revise and Resubmit, *Journal of Politics*)
+"[The Mobilizing Effects of Aggressive Policing: Evidence from Anti-Gang Crackdowns](https://dnaftel.github.io/assets/naftel_injunctions_workingpaper.pdf)" (Conditionally Accepted, *Journal of Politics*)
 
 Abstract: *Aggressive, zero tolerance policing exposes many Americans to high levels of police surveillance and coercion. Yet little is known about how these tactics affect voting in the broader communities they target. I overcome difficulties in identifying the causal effect of aggressive policing on turnout by exploiting hyperlocal variation in exposure to a series of geographically targeted, anti-gang crackdowns in Los Angeles. Using administrative data on voting, a geocoded panel survey, and a within-neighborhoods, difference-in-difference design, I show that these crackdowns led to large, durable increases in political participation. These mobilization effects are concentrated among Black and Latino residents, who became significantly more likely to report police discrimination. I find corresponding increases in support for criminal justice reform, but minimal changes to perceived crime and safety. These results suggest that communities targeted by harsh police crackdowns may mobilize to resist these policies when viewed as ineffective and racially targeted.*
 
-"[Can Policing Increase Participation? Evidence from a Randomized Field Experiment](https://dnaftel.github.io/assets/naftel_hotspots_workingpaper.pdf)” (Job Market Paper)
+"[Can Policing Increase Participation? Evidence from a Randomized Field Experiment](https://dnaftel.github.io/assets/naftel_hotspots_workingpaper.pdf)” (Revise and Resubmit, *American Political Science Review*)
 
 Abstract: *Existing scholarship documents the ways in which involuntary contact with police can harm and demobilize the public, but policing can also provide important benefits in the form of reassurance and crime control. Because of this, the aggregate consequences of high levels of policing are unclear. To test the effects of policing on turnout, I leverage a unique field experiment in which the presence of the police and the tactics they used were randomized. Some neighborhoods experienced high-intensity patrols that generated large numbers of stops and arrests; others experienced patrols that emphasized non-enforcement, community-oriented tactics; while others experienced no changes in policing. I find that both interventions increased turnout in subsequent elections by roughly 3 percentage points despite large differences in officer behavior. These findings offer the strongest evidence to date that increasing the presence of the police in neighborhoods with high crime rates can generate positive feedback effects that encourage voting.*
 
+"Nationalization in Local Elections" with Justin de Benedictis-Kessner, John Sides, and Christopher Warshaw
+
 ## In Progress
 
-"Criminal Justice and Voter Behavior in Local Elections," with Justin de Benedictis-Kessner, John Sides, and Christopher Warshaw
+"Low Information, Not No Information: Voter Perceptions of Candidate Ideology in Local Elections," with Justin de Benedictis-Kessner, Julian Perry, and Jacob Sherer
 
-"Pork on the Menu: Local Elections and Inequality in the Provision of Public Goods"
+"What Shapes Police Accountability? Evidence from Three Decades of Police Collective Bargaining"
 
-"When Do Unions Hinder Reform? A Comprehensive Investigation of Police Collective Bargaining Agreements"
+"Revisiting Racial Polarization in Local Elections"
+
+"The Dimensionality of Local Policy Preferences," with Justin de Benedictis-Kessner, Devin Caughey, John Sides, and Christopher Warshaw
 
 
 
