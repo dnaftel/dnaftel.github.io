@@ -7,7 +7,10 @@ wide: true
 
 ## Published Work
 
-"[The Politics of Criminalized Places: Aggressive Policing and Political Mobilization](https://dnaftel.github.io/assets/naftel_injunctions_workingpaper.pdf)" (Forthcoming, *Journal of Politics*)
+<p class="research-paper">
+  <a href="https://dnaftel.github.io/assets/naftel_injunctions_workingpaper.pdf">“The Politics of Criminalized Places: Aggressive Policing and Political Mobilization”</a>,
+  Forthcoming in <em>Journal of Politics</em>
+</p>
 
 <details class="research-abstract">
   <summary>Abstract</summary>
