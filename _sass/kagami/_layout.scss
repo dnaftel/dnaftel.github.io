@@ -240,3 +240,10 @@ article {
     max-width: 840px;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .wrapper.wrapper-wide .research-paper {
+    font-size: 1.125em;
+    line-height: 1.45;
+  }
+}
