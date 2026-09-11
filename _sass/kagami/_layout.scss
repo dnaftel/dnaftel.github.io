@@ -234,3 +234,9 @@ article {
   padding: 0;
   line-height: 1.55;
 }
+
+@media screen and (min-width: $content-width) {
+  .wrapper.wrapper-wide {
+    max-width: 840px;
+  }
+}
