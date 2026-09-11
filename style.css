@@ -1,0 +1,224 @@
+/* Daniel Naftel — site stylesheet. Base layout, then theme, then panels. */
+
+:root {
+  --text: #1f1f1f;
+  --muted: #5c5c5c;
+  --rule: #d9d6d0;
+  --accent: #7a1f2b;
+  --accent-hover: #4d1119;
+  --bg: #fdfcfa;
+  --thumb-bg: #ffffff;
+  --font-body: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-head: var(--font-body);
+  --body-size: 17px;
+  --name-weight: 400;
+  --section-transform: uppercase;
+  --section-spacing: 0.14em;
+  --thumb-border: 1px solid var(--rule);
+  --link-underline: rgba(122,31,43,0.35);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  line-height: 1.6;
+}
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--link-underline); }
+a:hover { color: var(--accent-hover); border-bottom-color: var(--accent-hover); }
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 32px; }
+
+/* Top navigation, shared by both pages */
+.topnav {
+  display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px;
+  padding: 26px 0 18px; border-bottom: 1px solid var(--rule); margin-bottom: 44px;
+}
+.topnav .brand { font-family: var(--font-head); font-size: 1.15rem; letter-spacing: 0.01em; border: none; color: var(--text); }
+.topnav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 26px; }
+.topnav a { border: none; font-size: 0.95rem; color: var(--muted); }
+.topnav a:hover, .topnav a.current { color: var(--accent); }
+.topnav a.current { border-bottom: 1px solid var(--accent); }
+
+/* Home page: two columns */
+.home {
+  display: grid; grid-template-columns: 250px minmax(0, 1fr); column-gap: 64px; align-items: start;
+  padding-bottom: 72px;
+}
+.side { position: sticky; top: 40px; }
+.portrait { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 3px; }
+.name { font-family: var(--font-head); font-size: 1.55rem; font-weight: var(--name-weight); margin: 22px 0 4px; line-height: 1.2; }
+.role { margin: 0; color: var(--muted); font-size: 0.95rem; line-height: 1.45; }
+.links { list-style: none; padding: 0; margin: 22px 0 0; border-top: 1px solid var(--rule); }
+.links li { border-bottom: 1px solid var(--rule); }
+.links a { display: block; padding: 9px 0; border-bottom: none; font-size: 0.95rem; }
+.links a span { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.links a.cv { font-weight: 600; }
+
+h2.section {
+  font-family: var(--font-head); font-size: 0.85rem; font-weight: 600; letter-spacing: var(--section-spacing); text-transform: var(--section-transform); color: var(--muted);
+  margin: 44px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+}
+h2.section:first-child { margin-top: 0; }
+.bio p { margin: 0 0 1em; }
+.bio p:last-child { margin-bottom: 0; }
+
+/* Research page */
+.research { padding-bottom: 72px; }
+.research h2.section { margin-top: 48px; }
+.research h2.section:first-of-type { margin-top: 0; }
+
+.paper {
+  display: grid; grid-template-columns: 220px minmax(0, 1fr); column-gap: 32px; align-items: start;
+  padding: 26px 0; border-bottom: 1px solid var(--rule);
+}
+.paper:last-child { border-bottom: none; }
+.thumb {
+  display: block; width: 100%; aspect-ratio: 4 / 3; background: var(--thumb-bg);
+  border: var(--thumb-border); border-radius: 3px; overflow: hidden;
+}
+.thumb img { width: 100%; height: 100%; object-fit: contain; display: block; padding: 6px; }
+.thumb.cover img { object-fit: cover; padding: 0; }
+.thumb.placeholder {
+  display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 0.8rem;
+  letter-spacing: 0.08em; text-transform: uppercase; background: #f3f1ec;
+}
+.paper .title { font-family: var(--font-head); font-weight: 600; font-size: 1.05rem; line-height: 1.4; }
+.paper .venue { display: block; color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+.paper .venue em { font-style: italic; }
+.paper .media { display: block; color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+.paper details { margin-top: 6px; font-size: 0.93rem; }
+.paper summary {
+  cursor: pointer; color: var(--accent); font-size: 0.85rem; letter-spacing: 0.04em; list-style: none; display: inline-block;
+}
+.paper summary::-webkit-details-marker { display: none; }
+.paper summary::before { content: "+ "; }
+.paper details[open] summary::before { content: "\2212  "; }
+.paper details p { margin: 8px 0 0; color: #333; line-height: 1.55; }
+
+.inprogress { list-style: none; padding: 0; margin: 0; }
+.inprogress li { margin: 0 0 10px; }
+.inprogress .coauthors { color: var(--muted); font-size: 0.95rem; }
+
+footer.site { padding: 14px 0 40px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.82rem; }
+
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 20px; }
+  .topnav { margin-bottom: 28px; }
+  .home { grid-template-columns: 1fr; row-gap: 32px; padding-bottom: 48px; }
+  .side { position: static; }
+  .portrait { max-width: 240px; }
+  .paper { grid-template-columns: 1fr; row-gap: 14px; }
+  .thumb { max-width: 300px; }
+}
+
+
+/* Theme: cream ground, near-black, heavy black rules, dashed dividers,
+   condensed display serif headlines, condensed uppercase labels, yellow highlight */
+:root {
+  --font-body: Newsreader, "Iowan Old Style", Georgia, serif;
+  --font-head: "Instrument Serif", "Times New Roman", serif;
+  --font-label: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body-size: 18px;
+  --bg: #fcfae4;
+  --text: #1f1d1a;
+  --muted: #53524c;
+  --rule: #c3c1ae;
+  --ink: #1f1d1a;
+  --highlight: #ffe7a4;
+  --accent: #1f1d1a;
+  --accent-hover: #000;
+  --link-underline: #1f1d1a;
+  --thumb-bg: #fcfae4;
+  --thumb-border: 1px solid #1f1d1a;
+}
+body { border-top: 6px solid var(--ink); line-height: 1.5; }
+a { border-bottom: 1px solid var(--link-underline); }
+a:hover { background: var(--highlight); border-bottom-color: var(--ink); }
+
+/* nav */
+.topnav { border-bottom: 2px solid var(--ink); padding: 22px 0 14px; }
+.topnav .brand { font-family: var(--font-head); font-size: 2rem; line-height: 1; letter-spacing: 0; }
+.topnav .brand:hover { background: none; }
+.topnav a { font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.08em; font-size: 1rem; font-weight: 600; color: var(--ink); }
+.topnav a.current { border-bottom: 2px solid var(--ink); }
+.topnav a:hover { background: none; }
+
+/* home */
+.portrait { border-radius: 0; border: 1px solid var(--ink); }
+.name { font-family: var(--font-head); font-size: 2.4rem; font-weight: 400; line-height: 1; margin-top: 18px; }
+.role { font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.06em; font-size: 1rem; color: var(--ink); margin-top: 6px; }
+.links { border-top: 2px solid var(--ink); margin-top: 18px; }
+.links li { border-bottom: 1px dashed var(--rule); }
+.links a { font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.06em; font-size: 1rem; font-weight: 500; }
+.links a.cv { font-weight: 600; }
+.links a:hover { background: none; color: var(--ink); }
+.links a span { font-family: var(--font-body); text-transform: none; letter-spacing: 0; }
+
+h2.section {
+  font-family: var(--font-label); font-size: 1rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink); border-top: 2px solid var(--ink); border-bottom: none; padding: 8px 0 0; margin-bottom: 18px;
+}
+.bio p:first-of-type::first-letter { font-family: var(--font-head); font-size: 3.2em; float: left; line-height: 0.8; padding: 4px 8px 0 0; }
+.bio p { line-height: 1.55; }
+
+/* research */
+.paper { border-bottom: 1px dashed var(--rule); padding: 28px 0; }
+.paper .title { font-family: var(--font-head); font-weight: 400; font-size: 1.7rem; line-height: 1.05; border-bottom: none; }
+.paper .title:hover { background: var(--highlight); }
+.paper .venue { font-size: 0.98rem; margin-top: 8px; }
+.paper .media { font-size: 0.95rem; }
+.paper summary { font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; font-weight: 600; color: var(--ink); }
+.thumb { border-radius: 0; }
+.inprogress li { border-bottom: 1px dashed var(--rule); padding: 8px 0; margin: 0; font-family: var(--font-head); font-size: 1.35rem; line-height: 1.15; }
+.inprogress .coauthors { font-family: var(--font-body); font-size: 0.95rem; }
+footer.site { border-top: 2px solid var(--ink); font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.85rem; color: var(--ink); }
+
+/* Pastel panels */
+:root {
+  --peach: #ffe1be;
+  --mint: #d8eee2;
+  --sand: #e4e2d6;
+  --yellow: #ffe7a4;
+  --thumb-bg: #ffffff;
+}
+/* home: sidebar sits on a peach panel */
+.side { background: var(--peach); padding: 18px; border: 1px solid var(--ink); }
+.side .links a:hover { background: var(--yellow); }
+.topnav a.current { background: var(--yellow); border-bottom: 2px solid var(--ink); padding: 0 4px; }
+
+/* research: full-bleed tinted bands per section */
+.band { padding: 8px 0 28px; }
+.band-working, .band-progress { box-shadow: 0 0 0 100vmax var(--band); clip-path: inset(0 -100vmax); background: var(--band); }
+.band-working { --band: var(--mint); margin-top: 20px; }
+.band-progress { --band: var(--peach); }
+.band h2.section { margin-top: 12px; }
+.band-working .paper:last-child { border-bottom: none; }
+.band-published .paper:last-child { border-bottom: none; }
+
+/* footer: black bar, cream type */
+footer.site { background: var(--ink); color: var(--bg); box-shadow: 0 0 0 100vmax var(--ink); clip-path: inset(0 -100vmax); padding: 18px 0 40px; margin-top: 0; }
+
+/* keep the black footer flush with the bottom of the viewport / last band */
+html, body { min-height: 100%; }
+body { display: flex; flex-direction: column; min-height: 100vh; }
+.wrap { display: flex; flex-direction: column; flex: 1; width: 100%; }
+footer.site { margin-top: auto; }
+.research { padding-bottom: 0; }
+.band-progress { padding-bottom: 36px; }
+.home { padding-bottom: 56px; }
+.role { font-size: 0.92rem; }
+
+/* Refinements */
+.research h2.section { font-size: 1.2rem; }
+.paper .venue em { font-weight: 600; }
+.paper details[open] p {
+  border: 2px solid var(--yellow);
+  background: var(--yellow);
+  padding: 12px 14px;
+  margin-top: 10px;
+}
